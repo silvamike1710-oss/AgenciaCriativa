@@ -89,7 +89,7 @@ section {
 }
 /*inside section*/
 .aboutme {
-
+    font-size: clamp(20px, 3vw, 45px);
     margin-top: 4rem;
     margin-left: 2rem;
     line-height: 4rem;
@@ -100,7 +100,7 @@ section {
 }
 /*inside aside*/
 .myskills {
-    
+    font-size: clamp(20px, 3vw, 45px);
     margin-top: 3rem;
     margin-left: 2rem;
     line-height: 4rem;
