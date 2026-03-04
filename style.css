@@ -5,117 +5,125 @@
 }
 
 body {
-    background: rgb(93, 38, 68)
+    background: rgb(95, 50, 125)
+    
 }
 
+p {
+    font-family: "arial narrow 7";
+}
 
+/*Main Header*/
 header {
     align-items: center;
     text-align: center;
     font-size: 80px;
     width: 100%;
-    height: 920px;
-    background: radial-gradient(rgba(235, 173, 122, 0.9),rgba(93, 38, 68, 1));
-    line-height: 250px;
+    height: auto;
+    line-height: 26rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 h1 {
     font-family: corela;
-    line-height: 35px;
-    color:rgb(42, 9, 27);
-    margin-top: 100px;
+    line-height: 2rem;
+    color:rgb(227, 178, 218);
+    margin-top: 18rem;
 }
 .flip {
-    margin-top: 55px;
+    margin-top: 3.5rem;
     display: inline-block;
     transform: scaleY(-1);
-    color: rgba(42, 9, 27, 0.2);
+    color: rgba(227, 178, 218, 0.2);
 }
 h2{
         font-family: corela;
-        font-size: 50px;
-        color:rgb(42, 9, 27);
-    }
-
-.headerimg {
-        width: 400px;
-        height: 400px;
-        display: block;
-        margin-top: 55px;
+        font-size: 4rem;
+        color:rgb(227, 178, 218);
         
     }
+/*plant*/
+.headerimg {
+        width: 100%;
+        display: block;
+        z-index: -10;
+        display: flex;
+        margin-top: -48%;
+    }
+/**/
+
+
 /* this is supposed to have a picture of me */
 .articleimg {
-        width: 700px;
-        height: 700px;
+        width: 35vw;
         margin-left: 80px;
         margin-top: 20px;
-        background: rgb(235, 174, 124);
+        background:rgba(183, 57, 178, 0.3);
         border-radius: 20% 20% 5px 5px;
-        box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.3)
-
+        box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.3);
+        border: 5px solid rgba(255, 255, 255, 0.3);
 }
-
+/*star thing, temporary*/
 article {
     font-size: 40px;
     display: flex;
-    color:rgb(42, 9, 27);
+    color:rgba(227, 178, 218);
+    
     
 }
 
 
 /* this has an about me */
 section {
-    width: 900px;
-    height: 320px;
-    background: rgb(235, 174, 124);
+    width: 53vw;
+    height: 17vw;
+    background:rgba(183, 57, 178, 0.3);
     flex-direction: right;
-    margin-top:20px;
-    border-radius: 20% 20% 5px 5px;
-    margin-left: 140px;
-    color:rgb(42, 9, 27);
-    box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.3)
+    margin-top:2rem;
+    border-radius: 20% 20% 5% 5%  ;
+    margin-left: 7rem;
+    color:rgb(227, 178, 218);
+    box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.3);
+    
 }
-p {
-    font-family: "arial narrow 7";
-}
+/*inside section*/
 .aboutme {
 
-    margin-top: 30px;
-    margin-left: 30px;
-    line-height: 60px;
-    color:rgb(42, 9, 27);
+    margin-top: 4rem;
+    margin-left: 2rem;
+    line-height: 4rem;
+    color:rgb(227, 178, 218);
     
     
 
 }
-
+/*inside aside*/
 .myskills {
-
-    margin-top: 50px;
-    margin-left: 30px;
-    line-height: 60px;
-    color:rgb(42, 9, 27);
+    
+    margin-top: 3rem;
+    margin-left: 2rem;
+    line-height: 4rem;
+    color:rgb(227, 178, 218);
     
 
 
 }
-
+/*under section*/
 aside {
-    width: 900px;
-    height: 320px;
-    background: rgb(235, 174, 124);
+    width: 53vw;
+    height: 17vw;
+    background:rgba(183, 57, 178, 0.3);
     flex-direction: right;
-    margin-top:300px;
-    border-radius: 5px 5px 20% 20% ;
+    margin-top:10rem;
+    border-radius: 5% 5% 20% 20% ;
     margin-left: 0px;
-    box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.3)
+    box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.3);
+    
 
 }
 
-
+/*nav things*/
 a:hover {
     text-decoration: none;
     font-size: 50px;
@@ -132,7 +140,7 @@ a:visited {
 a {
     text-decoration: none;
     font-size: 50px;
-    color:rgb(93, 38, 68);
+    color:rgb(227, 178, 218);
     
 }
 
@@ -142,7 +150,7 @@ a {
     align-items: center;
     width: 100% ;
     height: 100px;
-    background:rgb(235, 174, 124);
+    background:rgba(183, 57, 178, 0.5);
     line-height: 100px;
     display: flex;
     gap: 100px;
@@ -157,23 +165,52 @@ a {
     align-items: center;
     width: 100% ;
     height: 100px;
-    background:rgb(235, 174, 124);
+    background:rgba(183, 57, 178, 0.5);
     line-height: 100px;
     display: flex;
     gap: 100px;
     justify-content: center;
-    box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.4)
+    box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.4);
+    color: rgb(227, 178, 218);
 
 }
+
+/*gotta grid this*/
 projects {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 0;
+    justify-content: center;
     filter: drop-shadow(10px 10px 20px #2a091b66);
+    justify-content: space-around;
     
 }
 
+/*each individual project*/
+
 .linkimg {
-    width: 600px;
-    height: 600px;
+        width: 70%;
+        background:rgba(183, 57, 178, 0.3);
+        border-radius: 20% 20% 5% 5%;
+        box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.3);
+        border: 5px solid rgba(255, 255, 255, 0.3);
+        box-sizing: border-box; 
+        padding: 10px;
+        color:rgba(227, 178, 218);
+        
+}
+.linkimg2 {
+        width: 70%;
+        background:rgba(183, 57, 178, 0.3);
+        border-radius: 5% 5% 20% 20% ;
+        box-shadow:5px 5px 20px 20px rgba(42, 9, 27, 0.3);
+        border: 5px solid rgba(255, 255, 255, 0.3);
+        box-sizing: border-box; 
+        padding: 10px;
+        color:rgba(227, 178, 218);
 }
 
 footer {
@@ -184,7 +221,7 @@ footer {
     align-items: center;
     width: 100% ;
     height: 100px;
-    background:rgb(235, 174, 124);
+    background:rgba(183, 57, 178, 0.5);
     line-height: 00px;
     display: flex;
     gap: 100px;
